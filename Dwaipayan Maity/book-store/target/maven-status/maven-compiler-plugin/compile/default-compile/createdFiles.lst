@@ -1,0 +1,13 @@
+com\app\book_store\repository\BooksRepository.class
+com\app\book_store\repository\OrdersRepository.class
+com\app\book_store\controller\UsersController.class
+com\app\book_store\entities\OrdersEntity.class
+com\app\book_store\service\UsersService.class
+com\app\book_store\entities\BooksEntity.class
+com\app\book_store\controller\AdminController.class
+com\app\book_store\models\PlaceOrderRequest.class
+com\app\book_store\BookStoreApplication.class
+com\app\book_store\entities\UsersEntity.class
+com\app\book_store\service\BooksService.class
+com\app\book_store\repository\UsersRepository.class
+com\app\book_store\service\OrdersService.class

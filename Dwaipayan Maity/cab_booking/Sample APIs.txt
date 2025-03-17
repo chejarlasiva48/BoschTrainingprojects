@@ -1,0 +1,35 @@
+
+
+APIS to test 
+1. POST-
+	http://localhost:8080/user/login
+	Payload-
+	{
+	"username": "test-user",
+	"password": "test-password"
+	}
+
+2. POST-
+	http://localhost:8080/user/signup
+	Payload- 
+	{
+	"username": "test-user",
+	"password": "test-password"
+	}
+
+3. POST-
+	http://localhost:8080/booking/book/test-user
+	Payload-
+	{
+	"pickupLocation": "Location A",
+	"destination": "Location B",
+	"pickupDate": "2025-03-11T09:00:00",
+	"driverName": "John Doe",
+	"driverContact": "1234567890"
+	}
+
+4. GET-
+	http://localhost:8080/booking/status/18
+	
+5. GET-
+	http://localhost:8080/booking/cancel/18
